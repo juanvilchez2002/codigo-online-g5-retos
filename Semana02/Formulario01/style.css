@@ -1,0 +1,31 @@
+*{
+    font-size: 16px;
+    color: #807e7f ;
+}
+body{
+    width: 100%;
+    text-align: center;
+    
+}
+main{        
+    margin-top: 5px;
+}
+h1{
+    color: #495056 ;
+}
+input{
+    width: 200px;    
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+    color: #495056;
+    font-size: .9em;
+}
+button{
+    border: 1px solid #1da862 ;
+    color: white;
+    background-color: #1da862 ;
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+}
