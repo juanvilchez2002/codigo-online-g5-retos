@@ -9,12 +9,14 @@ let tareas = []; //aquí se almacenarar las tareas a mostrar
 
 //Llevando a clase toda la función
 class TODOLIST{
+    //definiendo el constructor
     constructor(fromToDo, ulTareas, tareas){
         this.fromToDo = fromToDo;
         this.ulTareas = ulTareas;
         this.tareas = tareas;
     }
 
+    //función que añade una tarea
     anadirTarea(){        
         //referencia al mismo objeto
         let that = this;
